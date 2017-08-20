@@ -14,8 +14,10 @@ class UserList extends Component {
 
     render() {
         return (
-            <div className="UserList">
-                {this.renderGreetings()}
+            <div className="UserList-Container">
+                <div className="UserList">
+                    {this.renderGreetings()}
+                </div>
             </div>
         );
     }

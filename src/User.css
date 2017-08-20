@@ -1,0 +1,24 @@
+.User {
+	width: 350px;
+	margin: 0.5em auto;
+	padding: 0.65em;
+	flex: 0 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.User-CompanyName {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.User-CatchPhrase {
+	text-align: center;
+	font-style: italic;
+	margin: 1em auto;
+}
+
+.User-Name,
+.User-City {
+	font-size: 0.75em;
+}
