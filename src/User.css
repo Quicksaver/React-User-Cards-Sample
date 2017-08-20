@@ -1,6 +1,15 @@
+.UserList a {
+	margin: 0.5em auto;
+	text-decoration: none;
+	color: inherit;
+}
+
+.UserList a:hover .User {
+	background: rgb(215,245,255);
+}
+
 .User {
 	width: 350px;
-	margin: 0.5em auto;
 	padding: 0.65em;
 	flex: 0 0 auto;
 	border: 1px solid #ccc;
