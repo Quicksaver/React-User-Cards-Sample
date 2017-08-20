@@ -11,6 +11,15 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!--
+      Marker image fails to load if this stylesheet is loaded in JS.
+      It would be nice to find a workaround to keep everything contained within the map container file,
+      there are some worth investigating at:
+        https://github.com/PaulLeCam/react-leaflet/issues/255
+        https://github.com/Leaflet/Leaflet/issues/4968
+      But for now this will do.
+    -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css">
+    <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.

@@ -1,0 +1,7 @@
+.leaflet-container {
+	margin: 1em auto;
+    height: 250px;
+    width: 550px;
+	max-width: 100%;
+    border: 1px solid #ccc;
+}

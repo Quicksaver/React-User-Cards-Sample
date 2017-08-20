@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import UserDetailsMap from './UserDetailsMap';
 import './UserDetails.css';
 
 class UserDetails extends Component {
@@ -47,6 +48,7 @@ class UserDetails extends Component {
                 <div className="UserDetails-Contact">Contact:</div>
                 <div className="UserDetails-Email"><a href={"mailto:"+user.email}>{user.email}</a></div>
                 <div className="UserDetails-Phone">{user.phone}</div>
+                <UserDetailsMap user={user}/>
                 <div className="UserDetails-GoBack"><Link to="/">Go back.</Link></div>
             </div>
         );
