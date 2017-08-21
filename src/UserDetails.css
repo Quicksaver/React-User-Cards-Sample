@@ -1,7 +1,9 @@
 .UserDetails {
 	margin: 2em auto 0;
-	width: 1200px;
-	max-width: 100%;
+	padding: 1em;
+	width: 1000px;
+	/* minus the padding */
+	max-width: calc(100% - 2em);
 }
 
 .UserDetails-CompanyName {
