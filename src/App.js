@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import UserList from './UserList';
+import UserListMap from './UserListMap';
 import UserDetails from './UserDetails';
 
 class App extends Component {
@@ -36,7 +37,10 @@ class App extends Component {
             <div className="App">
                 <Switch>
                     <Route exact path="/" render={(props) => (
-                        <UserList {...props} users={this.state.users} />
+                        <div>
+                            <UserList {...props} users={this.state.users} />
+                            <UserListMap {...props} users={this.state.users} />
+                        </div>
                     )}/>
                     <Route path="/user/:id" render={(props) => (
 						<UserDetails {...props} users={this.state.users} />

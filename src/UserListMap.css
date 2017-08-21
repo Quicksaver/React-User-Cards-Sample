@@ -1,0 +1,16 @@
+.UserListMap {
+	text-align: center;
+	margin: 2em auto;
+}
+
+.UserListMap .leaflet-container {
+	margin: 1em auto;
+    height: 350px;
+    width: 650px;
+	max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+.UserListMap-CompanyName {
+	font-weight: bold;
+}
