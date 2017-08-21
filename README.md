@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) v1.4.0 on Node.js v8.4.0 (npm v5.3.0).
 
 ## Installation
-Clone the git repo locally. Then `cd` into it and run `npm install` to install all necessary extra dependencies:
+Clone the git repo locally. Then `cd` into it and run `npm install` to install all dependencies. Dependencies not part of create-react-app that will also be installed:
 - leaflet v1.2.0
 - react-leaflet v1.6.1
 - react-router-dom v4.1.2
